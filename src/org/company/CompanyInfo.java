@@ -13,10 +13,14 @@ System.out.println("ID : 123456789");
 		// TODO Auto-generated method stub
 System.out.println("ADDRESS : Tambaram, Chennai");
 	}
+	private void companyOwner() {
+System.out.println("karthik R");
+	}
 	public static void main(String[] args) {
 		CompanyInfo a=new CompanyInfo();
 		a.companyName();
 		a.companyId();
 		a.companyAddress();  
+		a.companyOwner();
 	}
 }
